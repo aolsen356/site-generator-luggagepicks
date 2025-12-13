@@ -45,8 +45,8 @@ Domain: luggagepicks.webcytz.com
 - [x] Create international airline size requirements page
 
 ### Buying Guides
-- [ ] Create "How to Choose the Right Luggage" guide page
-- [ ] Create "Luggage Materials Comparison" guide page (hardside vs softside)
+- [x] Create "How to Choose the Right Luggage" guide page
+- [x] Create "Luggage Materials Comparison" guide page (hardside vs softside)
 
 ### SEO & Technical
 - [ ] Add sitemap.xml
