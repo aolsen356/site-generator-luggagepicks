@@ -28,11 +28,11 @@ Domain: luggagepicks.webcytz.com
 - [x] Build homepage with hero section, featured categories, and value proposition
 
 ### Category Pages - By Trip Type
-- [ ] Create "Weekend Getaway" luggage category page (3-5 product recommendations)
-- [ ] Create "Business Travel" luggage category page (3-5 product recommendations)
-- [ ] Create "Family Vacation" luggage category page (3-5 product recommendations)
-- [ ] Create "International Travel" luggage category page (3-5 product recommendations)
-- [ ] Create "Adventure/Outdoor" luggage category page (3-5 product recommendations)
+- [x] Create "Weekend Getaway" luggage category page (3-5 product recommendations)
+- [x] Create "Business Travel" luggage category page (3-5 product recommendations)
+- [x] Create "Family Vacation" luggage category page (3-5 product recommendations)
+- [x] Create "International Travel" luggage category page (3-5 product recommendations)
+- [x] Create "Adventure/Outdoor" luggage category page (3-5 product recommendations)
 
 ### Category Pages - By Size
 - [ ] Create "Carry-On Luggage" size category page (4-6 product recommendations)
