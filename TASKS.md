@@ -59,3 +59,4 @@ Domain: luggagepicks.webcytz.com
 ## QA Fixes Required
 - [x] Fix: Add missing sitemap.xml file
 - [x] Fix: Add missing robots.txt file
+- [x] Fix: Broken image URL in weekend-getaway.html (corrupted Unsplash URL)
