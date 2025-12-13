@@ -35,10 +35,10 @@ Domain: luggagepicks.webcytz.com
 - [x] Create "Adventure/Outdoor" luggage category page (3-5 product recommendations)
 
 ### Category Pages - By Size
-- [ ] Create "Carry-On Luggage" size category page (4-6 product recommendations)
-- [ ] Create "Checked Luggage (Medium)" size category page (4-6 product recommendations)
-- [ ] Create "Checked Luggage (Large)" size category page (4-6 product recommendations)
-- [ ] Create "Luggage Sets" category page (3-4 set recommendations)
+- [x] Create "Carry-On Luggage" size category page (4-6 product recommendations)
+- [x] Create "Checked Luggage (Medium)" size category page (4-6 product recommendations)
+- [x] Create "Checked Luggage (Large)" size category page (4-6 product recommendations)
+- [x] Create "Luggage Sets" category page (3-4 set recommendations)
 
 ### Airline Guides
 - [ ] Create airline carry-on size guide page (major US airlines comparison)
