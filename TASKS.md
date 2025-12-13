@@ -7,7 +7,7 @@ Domain: luggagepicks.webcytz.com
 ---
 
 ## Bootstrap (do not modify these)
-- [ ] Initialize git repository
+- [x] Initialize git repository
 - [ ] Create GitHub repo (site-generator-luggagepicks)
 - [ ] Set up Cloudflare hosting and custom domain
 
