@@ -49,9 +49,9 @@ Domain: luggagepicks.webcytz.com
 - [x] Create "Luggage Materials Comparison" guide page (hardside vs softside)
 
 ### SEO & Technical
-- [ ] Add sitemap.xml
-- [ ] Add robots.txt
-- [ ] Ensure all pages have proper meta descriptions and titles
+- [x] Add sitemap.xml
+- [x] Add robots.txt
+- [x] Ensure all pages have proper meta descriptions and titles
 
 ## Completion
 - [ ] FINAL: Verify site is complete, functional, and deployed
