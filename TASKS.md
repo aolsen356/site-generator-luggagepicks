@@ -55,3 +55,7 @@ Domain: luggagepicks.webcytz.com
 
 ## Completion
 - [x] FINAL: Verify site is complete, functional, and deployed
+
+## QA Fixes Required
+- [ ] Fix: Add missing sitemap.xml file
+- [ ] Fix: Add missing robots.txt file
