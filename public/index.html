@@ -3,31 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luggage Picks - Coming Soon</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-        }
-        .container {
-            padding: 2rem;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-    </style>
+    <title>Luggage Picks - Find the Perfect Luggage for Every Journey</title>
+    <meta name="description" content="Compare luggage by trip type, size, and airline requirements. Expert recommendations to help you choose the best suitcases, carry-ons, and travel bags.">
+    <link rel="canonical" href="https://luggagepicks.webcytz.com/">
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-38BF85QJG1"></script>
     <script>
@@ -38,10 +17,179 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Luggage Picks</h1>
-        <p>Your guide to finding the perfect luggage for every journey.</p>
-        <p>Coming Soon</p>
-    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo">Luggage Picks</a>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">&#9776;</button>
+            <nav class="nav" id="mainNav">
+                <a href="/carry-on-luggage.html" class="nav-link">Carry-On</a>
+                <a href="/checked-luggage.html" class="nav-link">Checked</a>
+                <a href="/luggage-sets.html" class="nav-link">Sets</a>
+                <a href="/airline-size-guide.html" class="nav-link">Airline Guide</a>
+                <a href="/how-to-choose-luggage.html" class="nav-link">Buying Guide</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Find the Perfect Luggage for Every Journey</h1>
+            <p>Compare suitcases by trip type, size, and airline requirements. Expert recommendations to help you travel smarter.</p>
+            <a href="/how-to-choose-luggage.html" class="btn btn-secondary">Read Our Buying Guide</a>
+        </div>
+    </section>
+
+    <!-- Shop by Trip Type -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Shop by Trip Type</h2>
+            <div class="grid grid-3">
+                <a href="/weekend-getaway.html" class="category-card">
+                    <div class="category-icon">&#127746;</div>
+                    <h3>Weekend Getaway</h3>
+                    <p>Compact luggage perfect for 2-3 day trips</p>
+                </a>
+                <a href="/business-travel.html" class="category-card">
+                    <div class="category-icon">&#128188;</div>
+                    <h3>Business Travel</h3>
+                    <p>Professional bags with laptop compartments</p>
+                </a>
+                <a href="/family-vacation.html" class="category-card">
+                    <div class="category-icon">&#128106;</div>
+                    <h3>Family Vacation</h3>
+                    <p>Spacious options for packing everything you need</p>
+                </a>
+                <a href="/international-travel.html" class="category-card">
+                    <div class="category-icon">&#9992;</div>
+                    <h3>International Travel</h3>
+                    <p>Durable luggage built for long journeys</p>
+                </a>
+                <a href="/adventure-outdoor.html" class="category-card">
+                    <div class="category-icon">&#127956;</div>
+                    <h3>Adventure & Outdoor</h3>
+                    <p>Rugged bags for adventurous destinations</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Size -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-4">Shop by Size</h2>
+            <div class="grid grid-4">
+                <a href="/carry-on-luggage.html" class="category-card">
+                    <div class="category-icon">&#128188;</div>
+                    <h3>Carry-On</h3>
+                    <p>20-22" bags that fit overhead</p>
+                </a>
+                <a href="/checked-medium.html" class="category-card">
+                    <div class="category-icon">&#128179;</div>
+                    <h3>Medium Checked</h3>
+                    <p>24-26" for week-long trips</p>
+                </a>
+                <a href="/checked-large.html" class="category-card">
+                    <div class="category-icon">&#128179;</div>
+                    <h3>Large Checked</h3>
+                    <p>28-32" for extended travel</p>
+                </a>
+                <a href="/luggage-sets.html" class="category-card">
+                    <div class="category-icon">&#128179;</div>
+                    <h3>Luggage Sets</h3>
+                    <p>Complete matching collections</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Airline Requirements -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Know Before You Go</h2>
+            <div class="grid grid-2">
+                <a href="/airline-size-guide.html" class="category-card">
+                    <div class="category-icon">&#9992;</div>
+                    <h3>US Airline Size Guide</h3>
+                    <p>Carry-on dimensions for major US carriers including Delta, United, American, and Southwest</p>
+                </a>
+                <a href="/international-airline-guide.html" class="category-card">
+                    <div class="category-icon">&#127760;</div>
+                    <h3>International Airline Guide</h3>
+                    <p>Size requirements for international carriers and budget airlines worldwide</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buying Guides -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-4">Helpful Guides</h2>
+            <div class="grid grid-2">
+                <a href="/how-to-choose-luggage.html" class="category-card">
+                    <div class="category-icon">&#128218;</div>
+                    <h3>How to Choose Luggage</h3>
+                    <p>Everything you need to know about selecting the right suitcase for your needs</p>
+                </a>
+                <a href="/luggage-materials.html" class="category-card">
+                    <div class="category-icon">&#128296;</div>
+                    <h3>Materials Comparison</h3>
+                    <p>Hardside vs softside: pros, cons, and which is right for you</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Shop by Trip</h4>
+                    <ul class="footer-links">
+                        <li><a href="/weekend-getaway.html">Weekend Getaway</a></li>
+                        <li><a href="/business-travel.html">Business Travel</a></li>
+                        <li><a href="/family-vacation.html">Family Vacation</a></li>
+                        <li><a href="/international-travel.html">International Travel</a></li>
+                        <li><a href="/adventure-outdoor.html">Adventure & Outdoor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop by Size</h4>
+                    <ul class="footer-links">
+                        <li><a href="/carry-on-luggage.html">Carry-On Luggage</a></li>
+                        <li><a href="/checked-medium.html">Medium Checked</a></li>
+                        <li><a href="/checked-large.html">Large Checked</a></li>
+                        <li><a href="/luggage-sets.html">Luggage Sets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Airline Guides</h4>
+                    <ul class="footer-links">
+                        <li><a href="/airline-size-guide.html">US Airline Size Guide</a></li>
+                        <li><a href="/international-airline-guide.html">International Airlines</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="/how-to-choose-luggage.html">How to Choose Luggage</a></li>
+                        <li><a href="/luggage-materials.html">Materials Comparison</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Luggage Picks is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mainNav').classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
