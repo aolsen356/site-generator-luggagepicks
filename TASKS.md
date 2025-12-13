@@ -41,8 +41,8 @@ Domain: luggagepicks.webcytz.com
 - [x] Create "Luggage Sets" category page (3-4 set recommendations)
 
 ### Airline Guides
-- [ ] Create airline carry-on size guide page (major US airlines comparison)
-- [ ] Create international airline size requirements page
+- [x] Create airline carry-on size guide page (major US airlines comparison)
+- [x] Create international airline size requirements page
 
 ### Buying Guides
 - [ ] Create "How to Choose the Right Luggage" guide page
